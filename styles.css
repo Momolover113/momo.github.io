@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+section {
+    height: 100hv;
+
+}
+   section#hero h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+   } 
+
+   section#hero h2{
+    font-size: 2rem;
+   }
+
+
+section#hero{
+    background-color: lightgrey;
+    display: flex;
+}
+
+.projects-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+.projects-detail{
+    border: 3px solid red;
+    border-radius: 15px;
+    width: 300px;
+    margin: 20px;
+
+
+
+
+}
+
+.projects-detail img{
+    width: 100;
+}
